@@ -1,0 +1,8 @@
+- var pageTitle = page.title || config.subtitle || ''
+head
+	meta(charsete='UTF=8')
+	title = pageTitle
+	if theme.stylesheets !== undefined && theme.stylesheets.length > 0
+		each url in theme.stylesheets
+			link(rel='stylesheets', href=url)
+	link(rel='icon', href=config.root + 'images/favicon.ico')
