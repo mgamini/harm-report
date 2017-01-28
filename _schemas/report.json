@@ -1,0 +1,40 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "type": "object",
+    "properties": {
+        "date": "string", 
+        "tags": {
+            "type": "array",
+            "items": { "$ref": "./tags.json/tags" } // flattened group of tagged harm groups
+        },
+        "url": "string",
+        "images": { // featured image is first in array
+            "type": "array",
+            "items": "string"
+        },
+        "title": "string",
+        "brief": "string", // Quick summary of the report
+        "reliability": "number", // TBD
+        "harms": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "term": { "enum": ["short", "medium", "long"] },
+                    "group": { "$ref": "./tags.json/tags" },
+                    "description": "string"
+                }
+            },
+            "required": ["term", "group", "description"]
+        }
+    },
+    "required": [
+        "date",
+        "tags",
+        "url",
+        "title",
+        "brief",
+        "reliability",
+        "harms"
+    ]
+}
