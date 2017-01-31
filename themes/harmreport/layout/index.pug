@@ -1,5 +1,31 @@
 extends includes/layout
 
 block content
-	.archive
-		h1='This is the content'
+	#reports
+		//- - var archivesList = list_archives({type: 'monthly'})
+		//- archivesList(content=archivesList)
+		- var today = new Date(site.posts.toArray()[0].date)
+		//- - var posts = site.posts.toArray().filter(function(post) {return true;})
+		- var cache = []
+		//- - var posts = site.posts.toArray().map(function(post) { return JSON.stringify(post, function(key, value) {if (typeof value === 'object' && value !== null) { if (cache.indexOf(value) !== -1) { return; } cache.push(value);} return value; }); })
+		- var posts = site.posts.toArray().filter(function(post) { return new Date(post.date).getDate() === today.getDate() })
+		- var test = site.posts.toArray().map(function(post) { return {date: new Date(post.date).getDate() === today.getDate()} })
+		//- h1=today
+		each post in posts
+			p=post.date
+
+		list_tags()
+		//- 	p='====================='
+		//- each post in site.posts.sort('date', -1).toArray()
+		//- 	.report
+		//- 		if post.link
+		//- 				a.archive-item__link(href=url_for(post.link) target="_blank")
+		//- 					span.archive-item__link__time(datetime=date_xml(post.date))= date(post.date)
+		//- 					span.archive-item__link__title=post.title || 'No Title'
+		//- 		else
+		//- 				a.archive-item__link(href=url_for(post.path))
+		//- 					span.archive-item__link__time(datetime=date_xml(post.date))= date(post.date)
+		//- 					span.archive-item__link__title=post.title || 'No Title'
+
+
+//- JSON.stringify(o, function(key, value) {if (typeof value === 'object' && value !== null) { if (cache.indexOf(value) !== -1) { return; } cache.push(value);} return value; });

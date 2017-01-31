@@ -1,1 +1,5 @@
 span='copyright whatever'
+
+if theme.scripts !== undefined && theme.scripts.length > 0
+	each url in theme.scripts
+		script(src=url)

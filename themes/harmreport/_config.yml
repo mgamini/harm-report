@@ -20,7 +20,7 @@ widgets:
 # stylesheets loaded in the <head>
 stylesheets:
 - /css/main.css
-- https://fonts.googleapis.com/css?family=Open+Sans
+- https://fonts.googleapis.com/css?family=Open+Sans:400,800
 
 # display widgets at the bottom of index pages (pagination == 2)
 index_widgets:

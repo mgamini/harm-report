@@ -1,0 +1,668 @@
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Hexo version: \u001b[35m3.2.2\u001b[39m","time":"2017-01-31T22:05:10.527Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Working directory: \u001b[35m~/Dev/playground/harm-report/\u001b[39m","time":"2017-01-31T22:05:10.529Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Config loaded: \u001b[35m~/Dev/playground/harm-report/_config.yml\u001b[39m","time":"2017-01-31T22:05:10.641Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Script loaded: \u001b[35mthemes/harmreport/scripts/main.js\u001b[39m","time":"2017-01-31T22:05:10.653Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-browsersync\u001b[39m","time":"2017-01-31T22:05:10.705Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-category\u001b[39m","time":"2017-01-31T22:05:10.709Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-cli-extras\u001b[39m","time":"2017-01-31T22:05:10.796Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-archive\u001b[39m","time":"2017-01-31T22:05:10.798Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-tag\u001b[39m","time":"2017-01-31T22:05:10.799Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-index\u001b[39m","time":"2017-01-31T22:05:10.800Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-render-pug\u001b[39m","time":"2017-01-31T22:05:11.000Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-ejs\u001b[39m","time":"2017-01-31T22:05:11.003Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-marked\u001b[39m","time":"2017-01-31T22:05:11.007Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-yasr\u001b[39m","time":"2017-01-31T22:05:11.169Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-server\u001b[39m","time":"2017-01-31T22:05:11.212Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Loading database.","time":"2017-01-31T22:05:11.502Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":30,"msg":"Start processing","time":"2017-01-31T22:05:11.530Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Processed: \u001b[35m_posts/testpost.md\u001b[39m","time":"2017-01-31T22:05:11.552Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Processed: \u001b[35m_posts/hello-world.md\u001b[39m","time":"2017-01-31T22:05:11.554Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Processed: \u001b[35msource/css/main.styl\u001b[39m","time":"2017-01-31T22:05:11.576Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T22:05:11.577Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Theme config loaded.","time":"2017-01-31T22:05:11.579Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Processed: \u001b[35m_config.yml\u001b[39m","time":"2017-01-31T22:05:11.579Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Processed: \u001b[35msource/css/components/header.styl\u001b[39m","time":"2017-01-31T22:05:11.579Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Processed: \u001b[35mlayout/includes/footer.pug\u001b[39m","time":"2017-01-31T22:05:11.580Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Processed: \u001b[35mlayout/includes/header.pug\u001b[39m","time":"2017-01-31T22:05:11.580Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Processed: \u001b[35mlayout/includes/head.pug\u001b[39m","time":"2017-01-31T22:05:11.580Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Processed: \u001b[35mlayout/includes/layout.pug\u001b[39m","time":"2017-01-31T22:05:11.580Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T22:05:11.596Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T22:05:11.597Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T22:05:11.597Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T22:05:11.597Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T22:05:11.597Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T22:05:11.597Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T22:05:11.597Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":30,"msg":"Hexo is running at \u001b[4mhttp://localhost:4000/\u001b[24m. Press Ctrl+C to stop.","time":"2017-01-31T22:05:11.601Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Database saved","time":"2017-01-31T22:05:11.608Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T22:06:12.321Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T22:06:12.434Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T22:06:12.434Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T22:06:12.434Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T22:06:12.434Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T22:06:12.434Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T22:06:12.435Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T22:06:12.435Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T22:06:12.565Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T22:07:28.964Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T22:07:29.077Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T22:07:29.077Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T22:07:29.077Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T22:07:29.077Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T22:07:29.077Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T22:07:29.077Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T22:07:29.077Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T22:07:29.201Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T22:08:12.389Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T22:08:12.499Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T22:08:12.499Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T22:08:12.499Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T22:08:12.500Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T22:08:12.500Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T22:08:12.500Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T22:08:12.501Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T22:08:12.617Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T22:08:16.721Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T22:08:35.387Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T22:08:35.497Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T22:08:35.498Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T22:08:35.498Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T22:08:35.498Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T22:08:35.498Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T22:08:35.498Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T22:08:35.498Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T22:08:35.623Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T22:09:02.103Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T22:09:02.215Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T22:09:02.215Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T22:09:02.215Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T22:09:02.215Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T22:09:02.215Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T22:09:02.216Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T22:09:02.217Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T22:09:02.336Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T22:09:26.150Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T22:09:26.257Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T22:09:26.257Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T22:09:26.258Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T22:09:26.258Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T22:09:26.258Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T22:09:26.258Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T22:09:26.258Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T22:09:26.393Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":30,"msg":"Bye!","time":"2017-01-31T22:27:40.287Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":1868,"level":20,"msg":"Database saved","time":"2017-01-31T22:27:40.298Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3253,"level":20,"msg":"Hexo version: \u001b[35m3.2.2\u001b[39m","time":"2017-01-31T22:27:41.562Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Hexo version: \u001b[35m3.2.2\u001b[39m","time":"2017-01-31T22:27:56.734Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Working directory: \u001b[35m~/Dev/playground/harm-report/\u001b[39m","time":"2017-01-31T22:27:56.738Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Config loaded: \u001b[35m~/Dev/playground/harm-report/_config.yml\u001b[39m","time":"2017-01-31T22:27:56.818Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Script loaded: \u001b[35mthemes/harmreport/scripts/main.js\u001b[39m","time":"2017-01-31T22:27:56.829Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-browsersync\u001b[39m","time":"2017-01-31T22:27:56.865Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-cli-extras\u001b[39m","time":"2017-01-31T22:27:56.933Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-archive\u001b[39m","time":"2017-01-31T22:27:56.936Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-category\u001b[39m","time":"2017-01-31T22:27:56.937Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-index\u001b[39m","time":"2017-01-31T22:27:56.938Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-tag\u001b[39m","time":"2017-01-31T22:27:56.938Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-render-pug\u001b[39m","time":"2017-01-31T22:27:57.099Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-ejs\u001b[39m","time":"2017-01-31T22:27:57.101Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-marked\u001b[39m","time":"2017-01-31T22:27:57.105Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-yasr\u001b[39m","time":"2017-01-31T22:27:57.216Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-server\u001b[39m","time":"2017-01-31T22:27:57.251Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Loading database.","time":"2017-01-31T22:27:57.612Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":30,"msg":"Start processing","time":"2017-01-31T22:27:57.641Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Processed: \u001b[35m_posts/hello-world.md\u001b[39m","time":"2017-01-31T22:27:57.663Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Processed: \u001b[35m_posts/testpost.md\u001b[39m","time":"2017-01-31T22:27:57.663Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Theme config loaded.","time":"2017-01-31T22:27:57.688Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Processed: \u001b[35m_config.yml\u001b[39m","time":"2017-01-31T22:27:57.688Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Processed: \u001b[35msource/css/main.styl\u001b[39m","time":"2017-01-31T22:27:57.691Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T22:27:57.692Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Processed: \u001b[35msource/css/components/header.styl\u001b[39m","time":"2017-01-31T22:27:57.693Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Processed: \u001b[35mlayout/includes/footer.pug\u001b[39m","time":"2017-01-31T22:27:57.696Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Processed: \u001b[35mlayout/includes/head.pug\u001b[39m","time":"2017-01-31T22:27:57.696Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Processed: \u001b[35mlayout/includes/header.pug\u001b[39m","time":"2017-01-31T22:27:57.696Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Processed: \u001b[35mlayout/includes/layout.pug\u001b[39m","time":"2017-01-31T22:27:57.696Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T22:27:57.713Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T22:27:57.713Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T22:27:57.713Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T22:27:57.713Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T22:27:57.713Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T22:27:57.713Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T22:27:57.714Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":30,"msg":"Hexo is running at \u001b[4mhttp://localhost:4000/\u001b[24m. Press Ctrl+C to stop.","time":"2017-01-31T22:27:57.718Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Database saved","time":"2017-01-31T22:27:57.726Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T22:29:55.071Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T22:29:55.185Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T22:29:55.185Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T22:29:55.185Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T22:29:55.185Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T22:29:55.185Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T22:29:55.185Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T22:29:55.186Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T22:29:55.408Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T22:30:45.470Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T22:30:45.579Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T22:30:45.580Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T22:30:45.580Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T22:30:45.580Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T22:30:45.580Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T22:30:45.580Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T22:30:45.581Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T22:30:45.802Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T22:30:53.474Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T22:30:53.583Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T22:30:53.583Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T22:30:53.584Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T22:30:53.584Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T22:30:53.584Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T22:30:53.584Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T22:30:53.585Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T22:30:53.851Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":30,"msg":"Have a nice day","time":"2017-01-31T22:30:58.657Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3298,"level":20,"msg":"Database saved","time":"2017-01-31T22:30:58.664Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Hexo version: \u001b[35m3.2.2\u001b[39m","time":"2017-01-31T22:31:02.688Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Working directory: \u001b[35m~/Dev/playground/harm-report/\u001b[39m","time":"2017-01-31T22:31:02.691Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Config loaded: \u001b[35m~/Dev/playground/harm-report/_config.yml\u001b[39m","time":"2017-01-31T22:31:02.771Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Script loaded: \u001b[35mthemes/harmreport/scripts/main.js\u001b[39m","time":"2017-01-31T22:31:02.782Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-browsersync\u001b[39m","time":"2017-01-31T22:31:02.821Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-cli-extras\u001b[39m","time":"2017-01-31T22:31:02.886Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-archive\u001b[39m","time":"2017-01-31T22:31:02.889Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-category\u001b[39m","time":"2017-01-31T22:31:02.890Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-index\u001b[39m","time":"2017-01-31T22:31:02.891Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-tag\u001b[39m","time":"2017-01-31T22:31:02.891Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-render-pug\u001b[39m","time":"2017-01-31T22:31:03.078Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-ejs\u001b[39m","time":"2017-01-31T22:31:03.090Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-yasr\u001b[39m","time":"2017-01-31T22:31:03.231Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-marked\u001b[39m","time":"2017-01-31T22:31:03.234Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-server\u001b[39m","time":"2017-01-31T22:31:03.268Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Loading database.","time":"2017-01-31T22:31:03.641Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":30,"msg":"Start processing","time":"2017-01-31T22:31:03.674Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35m_posts/hello-world.md\u001b[39m","time":"2017-01-31T22:31:03.697Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35m_posts/testpost.md\u001b[39m","time":"2017-01-31T22:31:03.697Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Theme config loaded.","time":"2017-01-31T22:31:03.715Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35m_config.yml\u001b[39m","time":"2017-01-31T22:31:03.716Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35msource/css/main.styl\u001b[39m","time":"2017-01-31T22:31:03.720Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T22:31:03.721Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35msource/css/components/header.styl\u001b[39m","time":"2017-01-31T22:31:03.723Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35mlayout/includes/footer.pug\u001b[39m","time":"2017-01-31T22:31:03.723Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35mlayout/includes/head.pug\u001b[39m","time":"2017-01-31T22:31:03.723Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35mlayout/includes/header.pug\u001b[39m","time":"2017-01-31T22:31:03.723Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35mlayout/includes/layout.pug\u001b[39m","time":"2017-01-31T22:31:03.724Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T22:31:03.743Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T22:31:03.743Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T22:31:03.743Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T22:31:03.743Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T22:31:03.743Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T22:31:03.743Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T22:31:03.744Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":30,"msg":"Hexo is running at \u001b[4mhttp://localhost:4000/\u001b[24m. Press Ctrl+C to stop.","time":"2017-01-31T22:31:03.747Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Database saved","time":"2017-01-31T22:31:03.754Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T22:31:04.839Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T22:32:42.039Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T22:32:42.150Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T22:32:42.150Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T22:32:42.150Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T22:32:42.150Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T22:32:42.151Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T22:32:42.151Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T22:32:42.151Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T22:32:42.267Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T22:32:46.284Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T22:33:08.312Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T22:33:08.423Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T22:33:08.423Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T22:33:08.423Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T22:33:08.423Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T22:33:08.423Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T22:33:08.423Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T22:33:08.423Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T22:33:08.549Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T22:33:11.386Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T22:33:59.150Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T22:33:59.268Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T22:33:59.268Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T22:33:59.269Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T22:33:59.269Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T22:33:59.269Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T22:33:59.269Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T22:33:59.269Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T22:33:59.400Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T22:34:02.083Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T22:34:30.963Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T22:34:31.074Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T22:34:31.074Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T22:34:31.074Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T22:34:31.074Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T22:34:31.074Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T22:34:31.074Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T22:34:31.075Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T22:34:31.201Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T22:34:58.942Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T22:34:59.055Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T22:34:59.055Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T22:34:59.055Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T22:34:59.055Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T22:34:59.055Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T22:34:59.056Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T22:34:59.056Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T22:34:59.184Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T22:36:59.190Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T22:37:09.235Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T22:37:09.346Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T22:37:09.346Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T22:37:09.346Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T22:37:09.346Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T22:37:09.346Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T22:37:09.346Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T22:37:09.347Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T22:37:09.494Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T22:37:13.119Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T22:42:11.825Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T22:42:11.944Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T22:42:11.944Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T22:42:11.944Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T22:42:11.944Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T22:42:11.944Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T22:42:11.944Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T22:42:11.945Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T22:42:12.064Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T22:42:40.041Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T22:42:40.149Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T22:42:40.149Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T22:42:40.149Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T22:42:40.149Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T22:42:40.149Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T22:42:40.149Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T22:42:40.149Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T22:42:40.260Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T22:42:43.762Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T22:43:56.229Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T22:43:56.350Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T22:43:56.350Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T22:43:56.350Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T22:43:56.350Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T22:43:56.351Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T22:43:56.351Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T22:43:56.352Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T22:43:56.476Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T22:44:06.669Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T22:44:06.778Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T22:44:06.778Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T22:44:06.778Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T22:44:06.779Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T22:44:06.779Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T22:44:06.779Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T22:44:06.779Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T22:44:06.906Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T22:44:15.892Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T22:44:16.000Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T22:44:16.000Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T22:44:16.000Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T22:44:16.000Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T22:44:16.000Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T22:44:16.000Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T22:44:16.001Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T22:44:16.138Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T22:44:20.291Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T22:44:54.946Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T22:44:55.066Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T22:44:55.066Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T22:44:55.066Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T22:44:55.066Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T22:44:55.066Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T22:44:55.067Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T22:44:55.067Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T22:44:55.185Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T22:45:29.748Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T22:45:29.861Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T22:45:29.861Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T22:45:29.861Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T22:45:29.861Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T22:45:29.861Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T22:45:29.861Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T22:45:29.862Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T22:45:29.988Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T22:45:36.239Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T22:45:36.345Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T22:45:36.345Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T22:45:36.345Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T22:45:36.346Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T22:45:36.346Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T22:45:36.346Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T22:45:36.347Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T22:45:36.481Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T22:46:09.811Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T22:46:09.920Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T22:46:09.921Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T22:46:09.921Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T22:46:09.921Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T22:46:09.921Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T22:46:09.921Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T22:46:09.922Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T22:46:10.064Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T22:48:32.718Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T22:48:32.831Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T22:48:32.831Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T22:48:32.831Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T22:48:32.831Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T22:48:32.831Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T22:48:32.831Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T22:48:32.831Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T22:48:36.898Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T22:48:37.662Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T22:48:52.300Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T22:48:52.409Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T22:48:52.409Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T22:48:52.409Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T22:48:52.409Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T22:48:52.410Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T22:48:52.410Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T22:48:52.410Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T22:48:56.792Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T22:49:17.440Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T22:49:17.549Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T22:49:17.549Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T22:49:17.549Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T22:49:17.549Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T22:49:17.549Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T22:49:17.549Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T22:49:17.550Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T22:49:24.206Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T22:49:42.953Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T22:49:43.062Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T22:49:43.062Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T22:49:43.062Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T22:49:43.062Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T22:49:43.062Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T22:49:43.063Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T22:49:43.063Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T22:49:43.186Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T22:52:47.853Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T22:52:47.965Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T22:52:47.965Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T22:52:47.965Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T22:52:47.965Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T22:52:47.966Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T22:52:47.966Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T22:52:47.966Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T22:52:48.097Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T22:53:04.168Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T22:53:04.274Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T22:53:04.274Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T22:53:04.274Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T22:53:04.274Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T22:53:04.274Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T22:53:04.276Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T22:53:04.276Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T22:53:04.411Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T22:53:46.131Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T22:53:46.240Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T22:53:46.241Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T22:53:46.241Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T22:53:46.241Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T22:53:46.241Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T22:53:46.241Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T22:53:46.241Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T22:53:46.374Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T22:54:01.530Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T22:54:01.639Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T22:54:01.639Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T22:54:01.639Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T22:54:01.639Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T22:54:01.639Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T22:54:01.639Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T22:54:01.640Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T22:54:01.769Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T22:55:34.927Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T22:55:35.038Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T22:55:35.038Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T22:55:35.038Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T22:55:35.038Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T22:55:35.038Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T22:55:35.038Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T22:55:35.038Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T22:55:35.162Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T22:56:21.396Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T22:56:21.507Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T22:56:21.507Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T22:56:21.507Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T22:56:21.507Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T22:56:21.507Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T22:56:21.507Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T22:56:21.507Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T22:56:21.625Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T22:56:35.324Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T22:56:35.428Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T22:56:35.428Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T22:56:35.428Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T22:56:35.428Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T22:56:35.428Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T22:56:35.428Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T22:56:35.428Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T22:56:35.543Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T22:56:53.275Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T22:56:53.383Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T22:56:53.383Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T22:56:53.383Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T22:56:53.383Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T22:56:53.384Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T22:56:53.384Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T22:56:53.384Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T22:56:53.500Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T22:57:10.843Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T22:57:10.953Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T22:57:10.953Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T22:57:10.953Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T22:57:10.953Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T22:57:10.953Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T22:57:10.953Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T22:57:10.953Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T22:57:11.072Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T22:58:21.765Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T22:58:21.873Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T22:58:21.873Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T22:58:21.873Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T22:58:21.874Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T22:58:21.874Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T22:58:21.874Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T22:58:21.874Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T22:58:22.019Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T23:00:22.022Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T23:01:09.143Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T23:01:09.252Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T23:01:09.252Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T23:01:09.252Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T23:01:09.252Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T23:01:09.252Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T23:01:09.252Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T23:01:09.252Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T23:01:09.508Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T23:01:15.287Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T23:01:32.137Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T23:01:32.248Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T23:01:32.248Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T23:01:32.248Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T23:01:32.248Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T23:01:32.248Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T23:01:32.248Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T23:01:32.248Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T23:01:32.366Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T23:01:46.299Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T23:01:46.416Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T23:01:46.416Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T23:01:46.416Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T23:01:46.416Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T23:01:46.416Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T23:01:46.417Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T23:01:46.417Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T23:01:46.537Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T23:01:58.572Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T23:01:58.684Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T23:01:58.684Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T23:01:58.684Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T23:01:58.684Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T23:01:58.685Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T23:01:58.685Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T23:01:58.686Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T23:01:58.822Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T23:03:03.329Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T23:03:03.441Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T23:03:03.441Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T23:03:03.441Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T23:03:03.441Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T23:03:03.441Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T23:03:03.441Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T23:03:03.442Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T23:03:03.565Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T23:03:12.459Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T23:03:17.572Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T23:03:17.685Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T23:03:17.685Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T23:03:17.685Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T23:03:17.685Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T23:03:17.685Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T23:03:17.685Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T23:03:17.685Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T23:03:17.811Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T23:03:32.644Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T23:03:32.755Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T23:03:32.755Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T23:03:32.755Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T23:03:32.755Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T23:03:32.755Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T23:03:32.755Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T23:03:32.756Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T23:03:32.879Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T23:03:39.032Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T23:03:39.140Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T23:03:39.140Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T23:03:39.140Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T23:03:39.141Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T23:03:39.141Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T23:03:39.141Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T23:03:39.141Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T23:03:39.275Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T23:03:44.511Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T23:03:44.626Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T23:03:44.626Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T23:03:44.626Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T23:03:44.626Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T23:03:44.626Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T23:03:44.626Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T23:03:44.626Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T23:03:44.751Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T23:04:07.736Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T23:04:07.848Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T23:04:07.848Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T23:04:07.848Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T23:04:07.848Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T23:04:07.848Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T23:04:07.848Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T23:04:07.848Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T23:04:07.974Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T23:04:31.509Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T23:04:31.616Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T23:04:31.616Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T23:04:31.616Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T23:04:31.616Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T23:04:31.616Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T23:04:31.616Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T23:04:31.617Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T23:04:31.733Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T23:04:34.440Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35m_posts/hello-world.md\u001b[39m","time":"2017-01-31T23:10:12.285Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T23:10:12.516Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T23:10:12.516Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T23:10:12.516Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T23:10:12.517Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T23:10:12.517Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T23:10:12.517Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T23:10:12.518Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T23:10:12.645Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35m_posts/test2.md\u001b[39m","time":"2017-01-31T23:10:40.585Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35m_posts/test2.md\u001b[39m","time":"2017-01-31T23:10:40.671Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T23:10:40.785Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T23:10:40.785Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T23:10:40.785Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T23:10:40.785Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T23:10:40.785Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T23:10:40.785Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T23:10:40.785Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T23:10:40.900Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Processed: \u001b[35m_posts/test2.md\u001b[39m","time":"2017-01-31T23:10:42.101Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T23:10:42.213Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T23:10:42.213Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T23:10:42.213Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T23:10:42.213Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T23:10:42.213Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T23:10:42.213Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T23:10:42.213Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T23:10:42.327Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T23:10:46.168Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":30,"msg":"Bye!","time":"2017-01-31T23:10:55.471Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":3669,"level":20,"msg":"Database saved","time":"2017-01-31T23:10:55.478Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Hexo version: \u001b[35m3.2.2\u001b[39m","time":"2017-01-31T23:11:00.328Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Working directory: \u001b[35m~/Dev/playground/harm-report/\u001b[39m","time":"2017-01-31T23:11:00.331Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Config loaded: \u001b[35m~/Dev/playground/harm-report/_config.yml\u001b[39m","time":"2017-01-31T23:11:00.406Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Script loaded: \u001b[35mthemes/harmreport/scripts/main.js\u001b[39m","time":"2017-01-31T23:11:00.416Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-browsersync\u001b[39m","time":"2017-01-31T23:11:00.455Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-cli-extras\u001b[39m","time":"2017-01-31T23:11:00.526Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-archive\u001b[39m","time":"2017-01-31T23:11:00.528Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-category\u001b[39m","time":"2017-01-31T23:11:00.529Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-index\u001b[39m","time":"2017-01-31T23:11:00.530Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-tag\u001b[39m","time":"2017-01-31T23:11:00.531Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-render-pug\u001b[39m","time":"2017-01-31T23:11:00.690Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-ejs\u001b[39m","time":"2017-01-31T23:11:00.692Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-marked\u001b[39m","time":"2017-01-31T23:11:00.696Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-yasr\u001b[39m","time":"2017-01-31T23:11:00.819Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-server\u001b[39m","time":"2017-01-31T23:11:00.851Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Loading database.","time":"2017-01-31T23:11:01.206Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":30,"msg":"Start processing","time":"2017-01-31T23:11:01.237Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Processed: \u001b[35m_posts/hello-world.md\u001b[39m","time":"2017-01-31T23:11:01.261Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Processed: \u001b[35m_posts/test2.md\u001b[39m","time":"2017-01-31T23:11:01.261Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Processed: \u001b[35m_posts/testpost.md\u001b[39m","time":"2017-01-31T23:11:01.262Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Theme config loaded.","time":"2017-01-31T23:11:01.284Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Processed: \u001b[35m_config.yml\u001b[39m","time":"2017-01-31T23:11:01.284Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Processed: \u001b[35msource/css/main.styl\u001b[39m","time":"2017-01-31T23:11:01.288Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Processed: \u001b[35msource/css/components/header.styl\u001b[39m","time":"2017-01-31T23:11:01.289Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T23:11:01.291Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Processed: \u001b[35mlayout/includes/footer.pug\u001b[39m","time":"2017-01-31T23:11:01.291Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Processed: \u001b[35mlayout/includes/layout.pug\u001b[39m","time":"2017-01-31T23:11:01.292Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Processed: \u001b[35mlayout/includes/header.pug\u001b[39m","time":"2017-01-31T23:11:01.292Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Processed: \u001b[35mlayout/includes/head.pug\u001b[39m","time":"2017-01-31T23:11:01.292Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T23:11:01.313Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T23:11:01.314Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T23:11:01.314Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T23:11:01.314Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T23:11:01.314Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T23:11:01.314Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T23:11:01.315Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":30,"msg":"Hexo is running at \u001b[4mhttp://localhost:4000/\u001b[24m. Press Ctrl+C to stop.","time":"2017-01-31T23:11:01.320Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Database saved","time":"2017-01-31T23:11:01.327Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T23:11:03.058Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Processed: \u001b[35m_posts/test2.md\u001b[39m","time":"2017-01-31T23:14:30.791Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T23:14:30.972Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T23:14:30.972Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T23:14:30.972Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T23:14:30.973Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T23:14:30.973Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T23:14:30.973Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T23:14:30.973Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T23:14:31.126Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T23:15:08.998Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T23:15:09.119Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T23:15:09.119Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T23:15:09.119Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T23:15:09.119Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T23:15:09.119Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T23:15:09.119Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T23:15:09.120Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T23:15:09.232Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Processed: \u001b[35mlayout/index.pug\u001b[39m","time":"2017-01-31T23:15:33.236Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Generator: \u001b[35mpage\u001b[39m","time":"2017-01-31T23:15:33.350Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Generator: \u001b[35mpost\u001b[39m","time":"2017-01-31T23:15:33.350Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Generator: \u001b[35marchive\u001b[39m","time":"2017-01-31T23:15:33.351Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Generator: \u001b[35mcategory\u001b[39m","time":"2017-01-31T23:15:33.351Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Generator: \u001b[35mindex\u001b[39m","time":"2017-01-31T23:15:33.351Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Generator: \u001b[35mtag\u001b[39m","time":"2017-01-31T23:15:33.351Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Generator: \u001b[35masset\u001b[39m","time":"2017-01-31T23:15:33.351Z","v":0}
+{"name":"hexo","hostname":"gamini-m.jet.local","pid":6918,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2017-01-31T23:15:33.475Z","v":0}
