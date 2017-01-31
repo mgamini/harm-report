@@ -69,3 +69,18 @@ theme: harmreport
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+# YASR Configuration
+## Docs: https://github.com/celsomiranda/hexo-renderer-yasr
+yasr:
+  axis: true              # Enables Axis (Recommends Nib)
+  compress: false         # Disables Compression
+  jeet: true              # Enables Jeet
+  nib: true               # Enables Nib
+  rupture: true           # Enables Rupture
+  typographic: true       # Enables Typographic
+  sourcemaps:             # Sourcemaps configuration
+    comment: true
+    inline: true
+    sourceRoot: ''
+    basePath: 'css/'

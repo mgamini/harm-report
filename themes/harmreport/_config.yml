@@ -17,6 +17,11 @@ widgets:
 - archive
 - recent_posts
 
+# stylesheets loaded in the <head>
+stylesheets:
+- /css/main.css
+- https://fonts.googleapis.com/css?family=Open+Sans
+
 # display widgets at the bottom of index pages (pagination == 2)
 index_widgets:
 # - category

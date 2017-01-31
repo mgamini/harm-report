@@ -19,9 +19,11 @@
     "hexo-render-pug": "^1.2.0",
     "hexo-renderer-ejs": "^0.2.0",
     "hexo-renderer-marked": "^0.2.10",
-    "hexo-renderer-stylus": "^0.3.1",
+    "hexo-renderer-yasr": "git@github.com:mgamini/hexo-renderer-yasr.git",
     "hexo-server": "^0.2.0",
     "o": "^0.2.0",
+    "s-grid": "^1.2.0",
+    "stylus": "^0.54.5",
     "x": "^0.1.2"
   }
 }
