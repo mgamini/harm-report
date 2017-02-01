@@ -14,6 +14,7 @@ db.json
 /test/tmp/
 /test/version_tmp/
 /tmp/
+npm-debug.log
 
 # Used by dotenv library to load environment variables.
 # .env
