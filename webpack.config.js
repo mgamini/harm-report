@@ -149,6 +149,7 @@ const config = {
   // https://github.com/postcss/postcss
   postcss(bundler) {
     return [
+      require('postcss-autoreset')({ reset: { margin: 0, padding: 0, borderRadius: 0, 'box-sizing': 'border-box' }}),
       // Transfer @import rule by inlining content, e.g. @import 'normalize.css'
       // https://github.com/postcss/postcss-import
       require('postcss-import')({ addDependencyTo: bundler }),
@@ -188,6 +189,7 @@ const config = {
       // Add vendor prefixes to CSS rules using values from caniuse.com
       // https://github.com/postcss/autoprefixer
       require('autoprefixer')(),
+      require('lost')()
     ];
   },
 
