@@ -56,6 +56,8 @@ function resolve(routes, context) {
       continue;
     }
 
+    console.log('do route')
+
     // Check if the route has any data requirements, for example:
     // { path: '/tasks/:id', data: { task: 'GET /api/tasks/$id' }, page: './pages/task' }
     if (route.data) {
@@ -64,10 +66,18 @@ function resolve(routes, context) {
       return Promise.all([
         route.load(),
         ...keys.map(key => {
+          params;
           const query = route.data[key];
           const method = query.substring(0, query.indexOf(' ')); // GET
-          const url = query.substr(query.indexOf(' ') + 1);      // /api/tasks/$id
+          let url = query.substr(query.indexOf(' ') + 1);      // /api/tasks/$id
           // TODO: Replace query parameters with actual values coming from `params`
+          let match = url.match(/\:(?:\w*|\d*)/);
+          if (match) {
+            match = match[0];
+            const matchParam = match.substr(1, match.length);
+            url = url.replace(match, params[matchParam]);
+          }
+
           return fetch(url, { method }).then(resp => resp.json());
         }),
       ]).then(([Page, ...data]) => {

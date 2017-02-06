@@ -106,6 +106,10 @@ tasks.set('publish', () => {
     .then(() => { setTimeout(() => process.exit()); });
 });
 
+tasks.set('gen', () => {
+  return require('./utils/api-generator.js')('reports');
+})
+
 //
 // Build website and launch it in a browser for testing (default)
 // -----------------------------------------------------------------------------

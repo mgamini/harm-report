@@ -2,18 +2,15 @@
   {
     "path": "/",
     "page": "./pages/home",
-    "chunk": "main",
-    "data": {
-      "today": "GET /api/today.json"
-    },
-    "preprocessor": "main"
+    "chunk": "main"
   },
   {
-    "path": "/r/:date",
+    "path": "/r",
     "page": "./pages/report",
     "data": {
-      "report": "GET /api/date/:date.json"
-    }
+      "reports": "GET https://gist.githubusercontent.com/mgamini/5bb13c65dac5861a10b3711a0b92c1a2/raw/a42867491fa12262edb8c1d4548a20745d8abd2e/testreports.json"
+    },
+    "preprocessor": "reports"
   },
   {
     "path": "/error",

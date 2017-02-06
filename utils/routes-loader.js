@@ -32,6 +32,9 @@ function escape(text) {
  *     load: function () { return new Promise(resolve => require(['./pages/about'], resolve)); }
  *   }
  */
+
+let preprocessors = {};
+
 module.exports = function routesLoader(source) {
   this.cacheable();
 
@@ -39,6 +42,7 @@ module.exports = function routesLoader(source) {
   const routes = JSON.parse(source);
 
   for (const route of routes) {
+    if (route.preprocessor) preprocessors[route.preprocessor];
     const keys = [];
     const pattern = toRegExp(route.path, keys);
     const require = route.chunk && route.chunk === 'main' ?
@@ -68,3 +72,8 @@ module.exports = function routesLoader(source) {
 
   return `module.exports = ${output.join('')};`;
 };
+
+preprocessors.main = function() {
+  console.log('preprocess!');
+}
+

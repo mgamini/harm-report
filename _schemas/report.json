@@ -2,12 +2,12 @@
     "$schema": "http://json-schema.org/draft-04/schema",
     "type": "object",
     "properties": {
-        "date": "string", 
+        "date": "string",
         "tags": {
             "type": "array",
             "items": { "$ref": "./tags.json/tags" } // flattened group of tagged harm groups
         },
-        "url": "string",
+        "source": "string",
         "images": { // featured image is first in array
             "type": "array",
             "items": "string"
