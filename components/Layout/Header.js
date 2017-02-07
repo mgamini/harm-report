@@ -9,8 +9,11 @@ class Header extends React.Component {
     return (
       <header ref={node => (this.root = node)}>
         <div>
-          <Link to="/">
-            Harm.Report
+          <Link className={s.logo} to="/">
+            <h1>
+              <span className={s.harm}>Harm</span>
+              <span className={s.report}>.Report</span>
+            </h1>
           </Link>
         </div>
       </header>
