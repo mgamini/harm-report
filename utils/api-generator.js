@@ -44,13 +44,12 @@ const processReports = (reports) => {
 		date.milliseconds(0);
 
 		let processed = {
-			_url: report,
 			id: date.format('YYYYMMDD') + split[4].match(/^[\w|\d]*/)[0],
 			date: date.toISOString(),
 			filename: date.format('YYYYMMDD') + split[4],
 		};
 
-		processed.data = JSON.parse(fs.readFileSync(processed._url, 'utf8'));
+		processed.data = JSON.parse(fs.readFileSync(report, 'utf8'));
 		processed.data.id = processed.id;
 
 		return processed;
