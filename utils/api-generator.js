@@ -55,11 +55,22 @@ const processReports = (reports) => {
 
 const generateDates = (reports) => {
 	console.log('Generating dates...');
-	let dates = {};
+	let datesObj = {};
+	let dates = [];
 
 	reports.forEach((report) => {
-		if (!_.has(dates, report.date)) dates[report.date] = [];
-		dates[report.date].push(report.data)
+		if (!_.has(datesObj, report.date)) datesObj[report.date] = [];
+		datesObj[report.date].push(report.data);
+	})
+
+	let keys = _.keys(datesObj);
+	keys.forEach((date, idx) => {
+		dates.push({
+			date,
+			data: datesObj[date],
+			prev: keys[idx - 1] ? keys[idx - 1] : "",
+			next: keys[idx + 1] ? keys[idx + 1] : ""
+		});
 	})
 
 	return dates;
@@ -73,12 +84,11 @@ const writeReportFiles = (reports, reportDir) => {
 }
 
 const writeDateFiles = (dates, dateDir) => {
-	const keys = _.keys(dates);
-	console.log(`Writing ${chalk.green(keys.length)} date files to ${dateDir}...`);
+	console.log(`Writing ${chalk.green(dates.length)} date files to ${dateDir}...`);
 
-	keys.forEach((dateKey) => {
+	dates.forEach((date) => {
 		console.log
-		fs.writeFile(dateDir + '/' + dateKey + '.json', JSON.stringify(dates[dateKey]))
+		fs.writeFile(dateDir + '/' + date.date + '.json', JSON.stringify(date))
 	})
 }
 
@@ -128,11 +138,11 @@ module.exports = function apiGenerator(source) {
 	writeDateFiles(dates, dateDir);
 
 	console.log('..');
-	const sorted = dates[_.keys(dates).sort((a, b) => {
-		return new Date(a) < new Date(b);
-	})[0]]
+	const sorted = dates.sort((a, b) => {
+		return new Date(a.date) < new Date(b.date);
+	})[0]
 
-	console.log(`Most recent date is: ${chalk.green(sorted[0].date)}.`);
+	console.log(`Most recent date is: ${chalk.green(sorted.date)}.`);
 	console.log('..');
 	console.log(`Writing ${chalk.green('latest.json')}...`);
 	fs.writeFile(apiDir + '/latest.json', JSON.stringify(sorted));

@@ -36,15 +36,10 @@ class HomePage extends React.Component {
       <Layout className={s.content}>
         <div dangerouslySetInnerHTML={{ __html: html }} />
         <h4>Articles</h4>
-        {this.props.reports.map((reportSet, i) =>
+        {this.props.reports.map((report, i) =>
           <div className="dayEntry" key={i}>
-            <p>{reportSet.date}</p>
-            <ul>
-              {reportSet.reports.map((report, j) =>
-                <li key={j}>{report.title}</li>
-              )}
-              <li><Link to="/r/123">Show task #123</Link></li>
-            </ul>
+            <h3>{report.title}</h3>
+            <p>{report.brief}</p>
           </div>
         )}
       </Layout>
