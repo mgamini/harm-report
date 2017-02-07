@@ -4,15 +4,22 @@
     "page": "./pages/home",
     "chunk": "main",
     "data": {
-      "today": "GET /api/today.json"
+      "reports": "GET /api/latest.json"
     },
     "preprocessor": "main"
   },
   {
-    "path": "/r/:date",
-    "page": "./pages/report",
+    "path": "/d/:date",
+    "page": "./pages/date",
     "data": {
       "report": "GET /api/date/:date.json"
+    }
+  },
+  {
+    "path": "/r/:report",
+    "page": "./pages/report",
+    "data": {
+      "report": "GET /api/report/:report.json"
     }
   },
   {

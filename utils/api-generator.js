@@ -3,19 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const moment = require('moment');
 const apiDir = 'public/api';
-
-// const allFilesSync = (dir, fileList = []) => {
-//   fs.readdirSync(dir).forEach(file => {
-//     const filePath = path.join(dir, file)
-
-// 		if (fs.statSync(filePath).isDirectory()) {
-// 			fileList.push({[file]: allFilesSync(filePath)})
-// 		} else if (file !== '.DS_Store') {
-// 			fileList.push(file)
-// 		}
-//   })
-//   return fileList
-// }
+const chalk = require('chalk');
 
 const walkDelete = function(path) {
   if( fs.existsSync(path) ) {
@@ -42,44 +30,8 @@ const walkSync = (dir, filelist = []) => {
 	return filelist;
 }
 
-module.exports = function apiGenerator(source) {
-	const dateDir = apiDir + '/date';
-	const reportDir = apiDir + '/report';
-	let reports = walkSync(source);
-	let dates = [];
-
-	try {
-		walkDelete(apiDir)
-	}	catch(e) {
-		console.warn('!! API dir not found, proceeding.')
-	}
-
-	fs.mkdirSync(apiDir);
-	fs.mkdirSync(dateDir);
-	fs.mkdirSync(reportDir);
-
-	reports = processReports(reports);
-	dates = generateDates(reports);
-
-	writeDateFiles(dates, dateDir);
-
-	return true;
-
-
-	// console.log(routes);
-
-	// output = routes.map((route) => {
-	// 	if (!_.get(route, 'preprocessor')) {
-	// 		return new Promise((res, rej) => res(route));
-	// 	}
-
-	// 	return preprocessors[route.preprocessor](route)
-	// })
-
-	// return Promise.all(output)
-};
-
-function processReports(reports) {
+const processReports = (reports) => {
+	console.log('Processing reports...');
 	return reports.map((report) => {
 		const split = report.split('/');
 		const date = moment()
@@ -101,7 +53,8 @@ function processReports(reports) {
 	})
 }
 
-function generateDates(reports) {
+const generateDates = (reports) => {
+	console.log('Generating dates...');
 	let dates = {};
 
 	reports.forEach((report) => {
@@ -112,15 +65,24 @@ function generateDates(reports) {
 	return dates;
 }
 
-function writeDateFiles(dates, dateDir) {
-	_.keys(dates).forEach((dateKey) => {
-		console.log(dateDir + '/' + dateKey + '.json')
+const writeReportFiles = (reports, reportDir) => {
+	console.log(`Writing ${chalk.green(reports.length)} report files to ${reportDir}...`);
+	reports.forEach((report) => {
+		fs.writeFile(reportDir + '/' + report.filename, JSON.stringify(report))
+	})
+}
+
+const writeDateFiles = (dates, dateDir) => {
+	const keys = _.keys(dates);
+	console.log(`Writing ${chalk.green(keys.length)} date files to ${dateDir}...`);
+
+	keys.forEach((dateKey) => {
+		console.log
 		fs.writeFile(dateDir + '/' + dateKey + '.json', JSON.stringify(dates[dateKey]))
 	})
 }
 
-
-function generateIds(data) {
+const generateIds = (data) => {
 	return data.map((reportSet) => {
 		return {
 			date: reportSet.date,
@@ -132,33 +94,52 @@ function generateIds(data) {
 	})
 }
 
-function generateDateRoutes(data) {
+module.exports = function apiGenerator(source) {
+	console.log(chalk.bgWhite('                          '))
+	console.log(chalk.green('Initializing report generation...'));
 
-}
+	const dateDir = apiDir + '/date';
+	const reportDir = apiDir + '/report';
+	let reports = walkSync(source);
+	let dates = [];
 
+	console.log(`Scan complete, detected ${chalk.green(reports.length)} reports.`);
 
-let preprocessors = {};
-preprocessors.reports = function(report) {
+	console.log('..');
+	try {
+		walkDelete(apiDir)
+	}	catch(e) {
+		console.warn(chalk.bgRed('!! API dir not found, proceeding.'))
+	}
 
-	return new Promise((res, rej) => {
-		let x = new xhr.XMLHttpRequest();
-		x.addEventListener('load', function() {
-			// console.log(this.responseText)
-			let result = JSON.parse(this.responseText);
+	console.log('..');
+	fs.mkdirSync(apiDir);
+	fs.mkdirSync(dateDir);
+	fs.mkdirSync(reportDir);
 
-			result = generateIds(result);
+	console.log('..');
+	reports = processReports(reports);
+	console.log('..');
+	dates = generateDates(reports);
 
+	console.log('..');
+	writeReportFiles(reports, reportDir);
+	console.log('..');
+	writeDateFiles(dates, dateDir);
 
+	console.log('..');
+	const sorted = dates[_.keys(dates).sort((a, b) => {
+		return new Date(a) < new Date(b);
+	})[0]]
 
-			console.log(result)
-			console.log('--------------EOR');
-			res(true);
-		});
+	console.log(`Most recent date is: ${chalk.green(sorted[0].date)}.`);
+	console.log('..');
+	console.log(`Writing ${chalk.green('latest.json')}...`);
+	fs.writeFile(apiDir + '/latest.json', JSON.stringify(sorted));
 
-		const b = report.data.reports.split(' ');
-		x.open(b[0],b[1])
-		x.send();
-	})
-}
+	console.log('..');
+	console.log(chalk.cyan('Process complete!'));
+	console.log(chalk.bgWhite('                          '))
 
-
+	return true;
+};
