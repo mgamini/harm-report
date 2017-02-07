@@ -34,15 +34,19 @@ const processReports = (reports) => {
 	console.log('Processing reports...');
 	return reports.map((report) => {
 		const split = report.split('/');
-		const date = moment()
-			.year(split[1])
-			.month(split[2])
-			.date(split[3]);
+		const date = moment();
+		date.year(split[1]);
+		date.month(split[2]);
+		date.date(split[3]);
+		date.hour(0);
+		date.minute(0);
+		date.seconds(0);
+		date.milliseconds(0);
 
 		let processed = {
 			_url: report,
 			id: date.format('YYYYMMDD') + split[4].match(/^[\w|\d]*/)[0],
-			date: date.format('MM-DD-YYYY'),
+			date: date.toISOString(),
 			filename: date.format('YYYYMMDD') + split[4],
 		};
 
@@ -88,7 +92,7 @@ const writeDateFiles = (dates, dateDir) => {
 
 	dates.forEach((date) => {
 		console.log
-		fs.writeFile(dateDir + '/' + date.date + '.json', JSON.stringify(date))
+		fs.writeFile(dateDir + '/' + moment(date.date).format('YYYYMMDD') + '.json', JSON.stringify(date))
 	})
 }
 

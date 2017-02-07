@@ -4,7 +4,7 @@
     "page": "./pages/home",
     "chunk": "main",
     "data": {
-      "reports": "GET /api/latest.json"
+      "latest": "GET /api/latest.json"
     },
     "preprocessor": "main"
   },
@@ -12,7 +12,7 @@
     "path": "/d/:date",
     "page": "./pages/date",
     "data": {
-      "report": "GET /api/date/:date.json"
+      "date": "GET /api/date/:date.json"
     }
   },
   {

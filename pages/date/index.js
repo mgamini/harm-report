@@ -1,55 +1,59 @@
-/**
- * React Static Boilerplate
- * https://github.com/kriasoft/react-static-boilerplate
- *
- * Copyright © 2015-present Kriasoft, LLC. All rights reserved.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE.txt file in the root directory of this source tree.
-* https://gist.githubusercontent.com/koistya/a32919e847531320675764e7308b796a/raw/articles.json
- */
-
-
-
 import React, { PropTypes } from 'react';
 import Layout from '../../components/Layout';
 import s from './styles.css';
-import { title, html } from './index.md';
+import ReportLink from '../../components/Link/ReportLink';
+import DateNavLink from '../../components/Link/DateNavLink';
 
-class ReportPage extends React.Component {
 
-  // static propTypes = {
-  //   reports: PropTypes.array.isRequired,
-  // };
+const moment = require('moment');
+
+class DatePage extends React.Component {
+
+  static propTypes = {
+    date: PropTypes.shape({
+      date: PropTypes.string.isRequired,
+      data: PropTypes.array.isRequired,
+      next: PropTypes.string,
+      prev: PropTypes.string,
+    })
+  };
 
 	componentWillMount() {
 		console.log('will mount')
 	}
 
   componentDidMount() {
-    document.title = title;
+    // document.title = title;
   }
 
   render() {
 		console.log('rendering date page')
+    let data = this.props.date.data;
+    let date = moment(this.props.date.date);
+    let top = data[0];
+    let rest = data.slice(1, data.length);
+
+    let next = !!this.props.date.next ?
+      <DateNavLink type={'next'} date={this.props.date.next} /> : null;
+    let prev = !!this.props.date.prev ?
+      <DateNavLink type={'prev'} date={this.props.date.prev} /> : null;
+
     return (
       <Layout className={s.content}>
-        <div dangerouslySetInnerHTML={{ __html: html }} />
-        <h4>Articles</h4>
-        {/*{this.props.reports.map((reportSet, i) =>
-          <div className="dayEntry" key={i}>
-            <p>{reportSet.date}</p>
-            <ul>
-              {reportSet.reports.map((report, j) =>
-                <li key={j}>{report.title}</li>
-              )}
-            </ul>
-          </div>
-        )}*/}
+        <h1 className={s.dateTitle}>
+          <span className={s.date}>{date.format('DD MMM')}</span>
+          <span className={s.year}>{date.format('YYYY')}</span>
+        </h1>
+        <ReportLink featured={true} report={top} />
+        {rest.map((report) =>
+          <ReportLink featured={false} report={report} key={report.id} />
+        )}
+        {next}
+        {prev}
       </Layout>
     );
   }
 
 }
 
-export default ReportPage;
+export default DatePage;

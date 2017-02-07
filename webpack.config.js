@@ -83,6 +83,9 @@ const config = {
       filename: 'assets.json',
       prettyPrint: true,
     }),
+    new webpack.ProvidePlugin({
+      moment: "moment"
+    })
   ],
 
   // Options affecting the normal modules
