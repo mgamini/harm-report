@@ -1,0 +1,67 @@
+[
+	{
+		"date": "02-02-2017",
+		"reports": [
+			{
+				"title": "Thing 1",
+				"brief": "brief for thing 1",
+				"source": "http://source.com",
+				"reliability": 5,
+				"harms": [
+					{
+						"group": "group1",
+						"term": "term1",
+						"description": "description1",
+						"source": "http://harm-source.com"
+					},
+					{
+						"group": "group2",
+						"term": "term2",
+						"description": "description2",
+						"source": "http://harm-source.com"
+					}
+				]
+			},
+			{
+				"title": "Thing 2",
+				"brief": "brief for thing 2",
+				"source": "http://source2.com",
+				"reliability": 5,
+				"harms": [
+					{
+						"group": "group1",
+						"term": "term1",
+						"description": "description1",
+						"source": "http://harm-source.com"
+					},
+					{
+						"group": "group2",
+						"term": "term2",
+						"description": "description2",
+						"source": "http://harm-source.com"
+					}
+				]
+			},
+			{
+				"title": "Thing 3",
+				"brief": "brief for thing 3",
+				"source": "http://source2.com",
+				"reliability": 5,
+				"harms": [
+					{
+						"group": "group1",
+						"term": "term1",
+						"description": "description1",
+						"source": "http://harm-source.com"
+					},
+					{
+						"group": "group2",
+						"term": "term2",
+						"description": "description2",
+						"source": "http://harm-source.com"
+					}
+				]
+			}
+		]
+	}
+]

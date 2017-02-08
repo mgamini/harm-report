@@ -1,0 +1,68 @@
+.row {
+  padding: 40px;
+}
+
+.title {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.logo {
+	margin: 30px 25px;
+	width: 250px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	color: #000;
+	lost-utility: clearfix;
+	line-height: 52px;
+	position: relative;
+	text-shadow: 0 0 1px rgba(255,255,255,0.3);
+}
+
+.harm {
+	float: left;
+	font-size: 72px;
+}
+.report {
+	float: left;
+	font-size: 52px;
+}
+
+.logo::before,
+.logo::after {
+	display: inline-block;
+	opacity: 0;
+	transition: transform 0.3s, opacity 0.2s;
+	position: absolute;
+	top: 7px;
+	font-weight: 400;
+	font-size: 152px;
+	height: 100%;
+}
+
+.logo::before {
+	margin-right: 10px;
+	content: '[';
+	transform: translateX(20px);
+	left: -30px;
+}
+
+.logo::after {
+	margin-left: 10px;
+	content: ']';
+	transform: translateX(-20px);
+	right: -5px;
+
+}
+
+.logo:hover::before,
+.logo:hover::after,
+.logo:focus::before,
+.logo:focus::after {
+	opacity: 1;
+	transform: translateX(0px);
+}

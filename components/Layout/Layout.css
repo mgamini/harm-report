@@ -1,0 +1,15 @@
+body {
+  all: initial;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif
+}
+
+.container {
+  lost-utility: clearfix;
+}
+
+.content {
+  margin: 0 auto;
+  max-width: 1000px;
+  width: 100%;
+  lost-column: 1/3;
+}

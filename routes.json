@@ -1,0 +1,38 @@
+[
+  {
+    "path": "/",
+    "page": "./pages/home",
+    "chunk": "main",
+    "data": {
+      "latest": "GET /api/latest.json"
+    },
+    "preprocessor": "main"
+  },
+  {
+    "path": "/d/:date",
+    "page": "./pages/date",
+    "data": {
+      "date": "GET /api/date/:date.json"
+    }
+  },
+  {
+    "path": "/r/:report",
+    "page": "./pages/report",
+    "data": {
+      "report": "GET /api/report/:report.json"
+    }
+  },
+  {
+    "path": "/error",
+    "page": "./pages/error",
+    "chunk": "main"
+  },
+  {
+    "path": "/about",
+    "page": "./pages/about"
+  },
+  {
+    "path": "/tasks/:status(pending|completed)?",
+    "page": "./pages/home"
+  }
+]

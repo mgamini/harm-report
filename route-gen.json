@@ -1,0 +1,28 @@
+[
+  {
+    "path": "/",
+    "page": "./pages/home",
+    "chunk": "main"
+  },
+  {
+    "path": "/r",
+    "page": "./pages/report",
+    "data": {
+      "reports": "GET https://gist.githubusercontent.com/mgamini/5bb13c65dac5861a10b3711a0b92c1a2/raw/a42867491fa12262edb8c1d4548a20745d8abd2e/testreports.json"
+    },
+    "preprocessor": "reports"
+  },
+  {
+    "path": "/error",
+    "page": "./pages/error",
+    "chunk": "main"
+  },
+  {
+    "path": "/about",
+    "page": "./pages/about"
+  },
+  {
+    "path": "/tasks/:status(pending|completed)?",
+    "page": "./pages/home"
+  }
+]
