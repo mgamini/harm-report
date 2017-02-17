@@ -1,0 +1,17 @@
+.dateTitle {
+	text-transform: uppercase;
+	text-align: right;
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	line-height: 36px;
+}
+
+.date {
+	font-size: 44px;
+	display: block;
+}
+
+.year {
+	font-size: 28px;
+}

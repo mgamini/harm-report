@@ -14,11 +14,12 @@ class DateNavLink extends React.Component {
 	render() {
 		console.log('rendering datenavlink')
 		let date = moment(this.props.date);
+		let type = this.props.type;
 
 		return (
-			<Link className={s.link} to={`/d/${date.format('YYYYMMDD')}`}>
-				<p className={s.date}>{date.format('DD MMM')}</p>
-				<p className={s.year}>{date.format('YYYY')}</p>
+			<Link className={`${s.link} ${s[type]}`} to={`/d/${date.format('YYYYMMDD')}`}>
+				<span className={s.date}>{date.format('DD MMM')}</span>
+				<span className={s.year}>{date.format('YYYY')}</span>
 			</Link>
 		)
 	}

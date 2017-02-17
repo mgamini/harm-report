@@ -1,10 +1,24 @@
+@lost flexbox flex;
+
+html, body {
+  height: 100%;
+}
+
 body {
   all: initial;
   font-family: 'Open Sans', Helvetica, Arial, sans-serif
 }
 
+.main {
+	 lost-flex-container: row;
+   width: 100%;
+   min-height: 100%;
+}
+
 .container {
-  lost-utility: clearfix;
+  lost-center: 1140px;
+  position: relative;
+  min-height: 100%;
 }
 
 .content {
