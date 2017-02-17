@@ -7,8 +7,8 @@ class Header extends React.Component {
 
   render() {
     return (
-      <header ref={node => (this.root = node)}>
-        <div>
+      <header ref={node => (this.root = node)} className={s.header}>
+        <div className={s.headerWrap}>
           <Link className={s.logo} to="/">
             <h1>
               <span className={s.harm}>Harm</span>

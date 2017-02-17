@@ -2,8 +2,25 @@
 	background-color: black;
 	color: white;
 	display: block;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 10px 20px;
+	line-height: 26px;
 }
 
-.date {}
+.next {
+	color: red;
+}
+
+.prev {
+	text-align: right;
+	color: white;
+}
+
+.date {
+	display: block;
+	font-size: 28px;
+}
 
 .year {}

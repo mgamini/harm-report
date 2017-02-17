@@ -1,5 +1,9 @@
-.row {
-  padding: 40px;
+.header {
+	 lost-flex-container: row;
+	 /*width: 100%;*/
+}
+.headerWrap {
+	lost-column: 1 flex;
 }
 
 .title {
@@ -21,6 +25,11 @@
 	line-height: 52px;
 	position: relative;
 	text-shadow: 0 0 1px rgba(255,255,255,0.3);
+	float: left;
+}
+
+.logo > h1 {
+	float: left;
 }
 
 .harm {
