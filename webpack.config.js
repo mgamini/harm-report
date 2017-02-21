@@ -153,7 +153,7 @@ const config = {
   postcss(bundler) {
     return {
       defaults: [
-        require('postcss-autoreset')({ reset: { margin: 0, padding: 0, borderRadius: 0, 'box-sizing': 'border-box' }}),
+        require('postcss-autoreset')({ reset: { 'box-sizing': 'border-box' }}),
         // Transfer @import rule by inlining content, e.g. @import 'normalize.css'
         // https://github.com/postcss/postcss-import
         require('postcss-import')({ addDependencyTo: bundler }),

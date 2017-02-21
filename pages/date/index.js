@@ -30,8 +30,6 @@ class DatePage extends React.Component {
 		console.log('rendering date page')
     let data = this.props.date.data;
     let date = moment(this.props.date.date);
-    let top = data[0];
-    let rest = data.slice(1, data.length);
 
     let next = !!this.props.date.next ?
       <DateNavLink type={'next'} date={this.props.date.next} /> : null;
@@ -40,16 +38,19 @@ class DatePage extends React.Component {
 
     return (
       <Layout className={s.content}>
-        <h1 className={s.dateTitle}>
-          <span className={s.date}>{date.format('DD MMM')}</span>
-          <span className={s.year}>{date.format('YYYY')}</span>
-        </h1>
-        <ReportLink featured={true} report={top} />
-        {rest.map((report) =>
-          <ReportLink featured={false} report={report} key={report.id} />
+        <div className={s.fixedRight}>
+          <h1 className={s.dateTitle}>
+            <span className={s.date}>{date.format('DD MMM')}</span>
+            <span className={s.year}>{date.format('YYYY')}</span>
+          </h1>
+          {prev}
+        </div>
+        <div className={s.fixedLeft}>
+          {next}
+        </div>
+        {data.map((report, idx) =>
+          <ReportLink featured={idx === 0} report={report} key={report.id} />
         )}
-        {next}
-        {prev}
       </Layout>
     );
   }

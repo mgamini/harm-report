@@ -1,0 +1,17 @@
+.harm-icon {
+	display: block;
+	height: 50px;
+	width: 50px;
+	background: black;
+	float: right;
+	margin-right: 10px;
+}
+
+.featured {
+	font-weight: bold;
+}
+
+.harm-icon-lgbt {
+	color: red;
+}
+

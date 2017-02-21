@@ -51,6 +51,10 @@ const processReports = (reports) => {
 
 		processed.data = JSON.parse(fs.readFileSync(report, 'utf8'));
 		processed.data.id = processed.id;
+		processed.data.harms = processed.data.harms.map((harm) => {
+			harm.id = _.camelCase(harm.group);
+			return harm;
+		})
 
 		return processed;
 	})

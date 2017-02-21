@@ -2,6 +2,7 @@ import React, { PropTypes } from 'react';
 import history from '../../core/history';
 import s from './ReportLink.css';
 import Link from './Link.js';
+import HarmIcon from '../Button/HarmIcon.js';
 
 const moment = require('moment');
 
@@ -16,9 +17,18 @@ class ReportLink extends React.Component {
 
 		console.log('rendering reportlink')
 		return (
-			<Link className={featured} to={`/r/${this.props.report.id}`}>
-				<p>{this.props.report.title}</p>
-			</Link>
+			<article className={`${s['report-entry']} ${featured}`} >
+				<div className={s.harms}>
+					{this.props.report.harms.map((harm) =>
+						<HarmIcon id={harm.id} name={harm.group} featured={this.props.featured} key={`${this.props.report.id}-${harm.id}`} />
+					)}
+				</div>
+				<div className={s.report}>
+					<Link className={s['report-link']} to={`/r/${this.props.report.id}`}>
+						<p>{this.props.report.title}</p>
+					</Link>
+				</div>
+			</article>
 		)
 	}
 }

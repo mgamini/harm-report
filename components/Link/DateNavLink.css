@@ -7,15 +7,18 @@
 	font-weight: bold;
 	padding: 10px 20px;
 	line-height: 26px;
+	position: fixed;
+	bottom: 0px;
+	width: 160px;
+	text-align: right;
 }
 
 .next {
-	color: red;
+
 }
 
 .prev {
 	text-align: right;
-	color: white;
 }
 
 .date {

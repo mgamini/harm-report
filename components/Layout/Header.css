@@ -47,7 +47,7 @@
 	opacity: 0;
 	transition: transform 0.3s, opacity 0.2s;
 	position: absolute;
-	top: 7px;
+	top: 30px;
 	font-weight: 400;
 	font-size: 152px;
 	height: 100%;

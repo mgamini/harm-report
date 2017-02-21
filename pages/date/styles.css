@@ -1,9 +1,28 @@
+.content {
+	width: 100%;
+	background: grey;
+}
+
+.fixedRight {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	width: 180px;
+}
+
+.fixedLeft {
+	position: absolute;
+	left: 20px;
+	bottom: 0px;
+	width: 180px;
+}
+
 .dateTitle {
 	text-transform: uppercase;
 	text-align: right;
-	position: absolute;
+	position: fixed;
 	top: 30px;
-	right: 30px;
 	line-height: 36px;
 }
 
