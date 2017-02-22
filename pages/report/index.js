@@ -28,8 +28,8 @@ class ReportPage extends React.Component {
         <div className={s.fixedRight}>
           <DateNavLink type={'current'} date={this.props.report.date} />
         </div>
-        <h1>{data.title}</h1>
-        <p>{data.brief}</p>
+        <h1 className={s.title}>{data.title}</h1>
+        {data.brief.split('\n').map((item, key) => <p key={key}>{item}</p>)}
         <ul>
         {data.harms.map((harm, i) =>
           <li key={i}><strong>{harm.group}</strong> - {harm.description}</li>
