@@ -7,7 +7,7 @@ const moment = require('moment');
 
 class DateNavLink extends React.Component {
   static propTypes = {
-    type: PropTypes.oneOf(['prev', 'next']),
+    type: PropTypes.oneOf(['prev', 'next', 'current']),
     date: PropTypes.string
   };
 

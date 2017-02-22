@@ -20,7 +20,12 @@ class ReportLink extends React.Component {
 			<article className={`${s['report-entry']} ${featured}`} >
 				<div className={s.harms}>
 					{this.props.report.harms.map((harm) =>
-						<HarmIcon id={harm.id} name={harm.group} featured={this.props.featured} key={`${this.props.report.id}-${harm.id}`} />
+						<HarmIcon
+							id={`${this.props.report.id}-${harm.id}`}
+							slug={harm.id}
+							name={harm.group}
+							featured={this.props.featured}
+							key={`${this.props.report.id}-${harm.id}`} />
 					)}
 				</div>
 				<div className={s.report}>

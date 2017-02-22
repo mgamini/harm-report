@@ -1,6 +1,7 @@
 import React, { PropTypes } from 'react';
 import Layout from '../../components/Layout';
 import s from './styles.css';
+import DateNavLink from '../../components/Link/DateNavLink';
 
 class ReportPage extends React.Component {
 
@@ -18,19 +19,15 @@ class ReportPage extends React.Component {
     })
   };
 
-	componentWillMount() {
-		console.log('will mount')
-	}
-
-  componentDidMount() {
-    // document.title = title;
-  }
-
   render() {
     let data = this.props.report.data;
+
 		console.log('rendering report page')
     return (
       <Layout className={s.content}>
+        <div className={s.fixedRight}>
+          <DateNavLink type={'current'} date={this.props.report.date} />
+        </div>
         <h1>{data.title}</h1>
         <p>{data.brief}</p>
         <ul>

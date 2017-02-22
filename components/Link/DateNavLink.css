@@ -1,10 +1,17 @@
+.date {
+	display: block;
+}
+
 .link {
-	background-color: black;
-	color: white;
+	font-weight: bold;
 	display: block;
 	text-transform: uppercase;
 	text-decoration: none;
-	font-weight: bold;
+}
+
+.prev, .next {
+	background-color: black;
+	color: white;
 	padding: 10px 20px;
 	line-height: 26px;
 	position: fixed;
@@ -13,17 +20,30 @@
 	text-align: right;
 }
 
-.next {
-
-}
-
 .prev {
 	text-align: right;
 }
 
-.date {
-	display: block;
+.prev > .date, .next > .date {
 	font-size: 28px;
 }
 
-.year {}
+.current {
+	text-transform: uppercase;
+	text-align: right;
+	position: fixed;
+	top: 50px;
+	line-height: 36px;
+	color: black;
+}
+
+.current > .date {
+	font-size: 44px;
+	display: block;
+}
+
+.current > .year {
+	font-size: 28px;
+}
+
+

@@ -29,7 +29,6 @@ class DatePage extends React.Component {
   render() {
 		console.log('rendering date page')
     let data = this.props.date.data;
-    let date = moment(this.props.date.date);
 
     let next = !!this.props.date.next ?
       <DateNavLink type={'next'} date={this.props.date.next} /> : null;
@@ -39,10 +38,7 @@ class DatePage extends React.Component {
     return (
       <Layout className={s.content}>
         <div className={s.fixedRight}>
-          <h1 className={s.dateTitle}>
-            <span className={s.date}>{date.format('DD MMM')}</span>
-            <span className={s.year}>{date.format('YYYY')}</span>
-          </h1>
+          <DateNavLink type={'current'} date={this.props.date.date} />
           {prev}
         </div>
         <div className={s.fixedLeft}>
