@@ -3,8 +3,6 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px"
 	 height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
-<g id="Layer_1">
-</g>
 <g id="economy">
 	<path fill="#010101" d="M100,49.991C100,77.604,77.604,100,49.993,100C22.396,100,0,77.604,0,49.991C0,22.396,22.396,0,49.993,0
 		C77.607,0,100,22.396,100,49.991L100,49.991z M25.846,75.849h54.532v-5.155H25.846v-44.02h-5.158v49.175H25.846 M36.877,55.916
@@ -18,13 +16,5 @@
 		c-0.409,1.474-0.045,3.041,0.987,4.152l-3.261,4.968l-3.932-4.075c1.256-2.1,0.564-4.859-1.568-6.113
 		c-2.116-1.252-4.856-0.563-6.11,1.552c-1.255,2.148-0.582,4.858,1.555,6.127c1.36,0.814,3.07,0.829,4.448,0.063l4.325,4.452
 		L36.877,55.916z"/>
-</g>
-<g id="immigrants">
-</g>
-<g id="environment">
-</g>
-<g id="native-peoples">
-</g>
-<g id="health">
 </g>
 </svg>

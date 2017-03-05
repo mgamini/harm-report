@@ -18,7 +18,7 @@ class HarmIcon extends React.Component {
 		console.log('rendering harmIcon')
 		return (
 			<Link data-tip data-for={`tip-${this.props.id}`} className={`${s['harm-icon']} ${iconClass} ${this.props.featured && s.featured}`} to={`/h/${this.props.slug}`}>
-				<p>{this.props.name}</p>
+				<img src={`/assets/img/icons/icon_${this.props.slug}.svg`} className={s.icon} />
 				<ReactTooltip id={`tip-${this.props.id}`} type='dark' effect='solid'>
 					<span>{this.props.name}</span>
 				</ReactTooltip>
