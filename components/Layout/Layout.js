@@ -12,12 +12,14 @@ class Layout extends React.Component {
 
   render() {
     return (
-      <div className={s.container} ref={node => (this.root = node)}>
-        <Header />
-        <main className={s.main}>
-          <div {...this.props} className={cx(s.content, this.props.className)} />
-          <Footer />
-        </main>
+      <div className={s.wrapper}>
+        <div className={s.container} ref={node => (this.root = node)}>
+          <Header />
+          <main className={s.main}>
+            <div {...this.props} className={cx(s.content, this.props.className)} />
+            <Footer />
+          </main>
+        </div>
       </div>
     );
   }

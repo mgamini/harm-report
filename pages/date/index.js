@@ -36,7 +36,7 @@ class DatePage extends React.Component {
       <DateNavLink type={'prev'} date={this.props.date.prev} /> : null;
 
     return (
-      <Layout className={s.content}>
+      <Layout className={s.main}>
         <div className={s.fixedRight}>
           <DateNavLink type={'current'} date={this.props.date.date} />
           {prev}
@@ -44,9 +44,11 @@ class DatePage extends React.Component {
         <div className={s.fixedLeft}>
           {next}
         </div>
-        {data.map((report, idx) =>
-          <ReportLink featured={idx === 0} report={report} key={report.id} />
-        )}
+        <section className={s.content}>
+          {data.map((report, idx) =>
+            <ReportLink featured={idx === 0} report={report} key={report.id} />
+          )}
+        </section>
       </Layout>
     );
   }

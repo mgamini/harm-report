@@ -10,7 +10,7 @@ body {
   /*all: initial;*/
   font-family: 'Open Sans', Helvetica, Arial, sans-serif
 }
-
+/*
 .main {
 	 lost-flex-container: row;
    width: 100%;
@@ -25,8 +25,24 @@ body {
 }
 
 .content {
-  /*margin: 0 auto;*/
-  /*max-width: 1000px;*/
-  /*width: 100%;*/
   lost-center: 980px;
+}*/
+
+.wrapper {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0px auto;
+  position: relative;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
 }

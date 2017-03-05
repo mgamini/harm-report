@@ -1,27 +1,26 @@
-.content {
-	width: 100%;
+.main {
+	display: flex;
+	flex-direction: column;
 }
 
 .fixedRight {
 	position: absolute;
-	top: 0px;
-	right: 0px;
-	bottom: 0px;
+	right: 30px;
+	top: 50px;
 	width: 180px;
+	/*lost-column: 1/6;*/
 }
 
-.fixedLeft {
-	position: absolute;
-	left: 20px;
-	bottom: 0px;
-	width: 180px;
+.content {
+	lost-column: 2/3;
+	lost-offset: 1/6;
 }
 
 .dateTitle {
 	text-transform: uppercase;
 	text-align: right;
-	position: fixed;
-	top: 30px;
+	/*position: absolute;
+	top: 30px;*/
 	line-height: 36px;
 }
 

@@ -12,8 +12,17 @@
 	lost-column: 2/3;
 	border-left: 10px solid black;
 	padding-left: 10px;
-	padding-right: 100px;
+	/*padding-right: 100px;*/
 	margin-left: -10px;
+}
+
+.harm-icon {
+	display: block;
+	height: 50px;
+	width: 50px;
+	background: black;
+	float: right;
+	margin-right: 10px;
 }
 
 .featured {

@@ -3,17 +3,26 @@
 	background: grey;
 }
 
+.main {
+	display: flex;
+	flex-direction: column;
+}
+
+.content {
+	lost-column: 2/3;
+	lost-offset: 1/6;
+}
+
 .fixedRight {
 	position: absolute;
-	top: 0px;
-	right: 0px;
-	bottom: 0px;
+	top: 50px;
+	right: 30px;
 	width: 180px;
+	/*lost-column: 1/6;*/
 }
 
 .fixedLeft {
 	position: absolute;
-	left: 20px;
 	bottom: 0px;
 	width: 180px;
 }
