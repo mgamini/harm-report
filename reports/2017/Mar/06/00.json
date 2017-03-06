@@ -1,0 +1,107 @@
+{
+		"source": "https://www.whitehouse.gov/the-press-office/2017/03/06/executive-order-protecting-nation-foreign-terrorist-entry-united-states",
+		"images": [],
+		"title": "Pres. Trump signs new executive order targeting six Muslim-majority countries",
+		"brief": "Donald Trump signed a new executive order which targets travelers and immigrants from six Muslim-majority countries and suspends the US refugee program. The order revokes the previous executive order on the same subject issued on January 27th.\nThis order removes Iraq from the list of suspended countries, removes language favoring non-Muslim religious minorities, provides exemptions for lawful permanent residents, and provides a 10-day window for implementation.",
+		"reliability": 5,
+		"harms": [
+			{
+				"term": "ongoing",
+				"group": "Health",
+				"description": "Over 7,000 doctors in the United States come from one of the six countries marked in the executive order. With many communities in the US suffering from a lack of physicians already, the EO exacerbates the existing problem, prevents physicians from entering the US in the immediate term, and discourages them and other high-skilled immigrants from wanting to immigrate to the US in the future.",
+				"sources": [
+					{
+						"name": "the Immigrant Doctors Project",
+						"title": "The Immigrant Doctors Project",
+						"link": "https://immigrantdoctors.org/"
+					},
+					{
+						"name": "Association of American Medical Colleges",
+						"title": "AAMC Statement on President Trump's Executive Order on Immigration",
+						"link": "https://news.aamc.org/press-releases/article/executive-order-immigration-013017/"
+					}
+				]
+			},
+			{
+				"term": "ongoing",
+				"group": "Economy",
+				"description": "Limiting immigration and travel has immediate and ongoing externalities which will impact the economy. Companies that employ high-skilled workers from overseas are already beginning to move operations to other countries which have friendlier immigration policies, such as Canada. This also may cause a 'brain drain' of high-skilled immigrants, who will opt to move away from or to never immigrate to the United States to avoid such restrictive policies.",
+				"sources": [
+					{
+						"name": "Forbes",
+						"title": "Here's How Trump Muslim Ban Will Slam U.S. Economy",
+						"link": "https://www.forbes.com/sites/johnwasik/2017/02/01/heres-how-trump-muslim-ban-will-slam-u-s-economy"
+					},
+					{
+						"name": "IT World",
+						"title": "Trump immigration ban means a war with tech",
+						"link": "http://www.itworld.com/article/3162707/it-industry/trump-immigration-ban-means-a-war-with-tech.html"
+					},
+					{
+						"name": "the Atlantic",
+						"title": "Trump’s Immigration Ban Is Already Harming American Science",
+						"link": "https://www.theatlantic.com/science/archive/2017/01/trumps-immigration-ban-is-already-harming-americas-scientistsand-its-science/514859/"
+					}
+				]
+			},
+			{
+				"term": "ongoing",
+				"group": "Security",
+				"description": "The executive order provides further ideological ammunition for ISIS and other radical Islamic groups to prove that the United States is at war with Islam, which is a core message of their propaganda and a primary recruitment tool. Furthermore, by harming America's image with Muslims in the targeted countries, it reduces America's ability to recruit foreign assets and allies to gather intelligence on terrorist activities.",
+				"sources": [
+					{
+						"name": "The Independent",
+						"title": "Trump’s Immigration Ban Is Already Harming American Science",
+						"link": "http://www.independent.co.uk/news/world/middle-east/isis-donald-trump-muslim-ban-immigration-iraq-iran-restrictions-travel-islamic-state-us-visa-a7552856.html"
+					},
+					{
+						"name": "Senator John McCain",
+						"title": "Statement by Senators McCain & Graham on Executive Order on Immigration",
+						"link": "http://www.mccain.senate.gov/public/index.cfm/2017/1/statement-by-senators-mccain-graham-on-executive-order-on-immigration"
+					},
+					{
+						"name": "NY Daily News",
+						"title": "President Trump’s immigration ban only weakens America’s effort to fight terrorism",
+						"link": "http://www.nydailynews.com/news/politics/trump-immigration-ban-weakens-fight-terrorism-article-1.2959198"
+					},
+					{
+						"name": "Wall Street Journal",
+						"title": "Donald Trump Rejects Intelligence Report on Travel Ban",
+						"link": "https://www.wsj.com/articles/donald-trump-rejects-intelligence-report-on-travel-ban-1487987629"
+					}
+				]
+			},
+			{
+				"term": "ongoing",
+				"group": "Refugees",
+				"description": "The impact and harms afflicted upon refugees, particularly those from war-torn regions such as Syria, are direct and unambiguous.",
+				"sources": [
+					{
+						"name": "UNHCR, The UN Refugee Agency",
+						"title": "UNHCR underscores humanitarian imperative for refugees as new U.S. rules announced",
+						"link": "http://www.unhcr.org/news/press/2017/3/58bdd37e4/unhcr-underscores-humanitarian-imperative-refugees-new-rules-announced.html"
+					},
+					{
+						"name": "Amnesty International",
+						"title": "Amnesty International USA on New Executive Order: Same Hate and Fear, New Packaging",
+						"link": "http://www.amnestyusa.org/news/press-releases/amnesty-international-usa-on-new-executive-order-same-hate-and-fear-new-packaging"
+					},
+					{
+						"name": "Human Rights Watch",
+						"title": "US: Trump's New Refugee Order Renews Old Harms",
+						"link": "https://www.hrw.org/news/2017/03/06/us-trumps-new-refugee-order-renews-old-harms"
+					},
+					{
+						"name": "USA Today",
+						"title": "Families, students, scientists: Faces of the immigration ban",
+						"link": "http://www.usatoday.com/story/news/nation-now/2017/01/30/families-students-scientists-5-people-affected-immigration-ban/97235250/"
+					},
+					{
+						"name": "The Conversation",
+						"title": "Donald Trump’s ban will have lasting and damaging impacts on the world’s refugees",
+						"link": "https://theconversation.com/donald-trumps-ban-will-have-lasting-and-damaging-impacts-on-the-worlds-refugees-72001"
+					}
+				]
+			}
+		]
+}
