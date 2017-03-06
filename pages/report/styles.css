@@ -72,6 +72,18 @@
 	text-transform: uppercase;
 }
 
+.harmSource {
+	margin-bottom: 20px;
+}
+
+.harmSourceTitle {
+	margin: 0px 0px 5px 0px;
+}
+.harmSourceName {
+	margin: 0px;
+	font-weight: normal;
+}
+
 @media (max-width: 600px) {
 	.content {
 		width: 100%;
@@ -89,4 +101,12 @@
 		height: 50px;
 		width: 50px;
 	}
+	.harmIcons {
+		lost-column: 1/4;
+	}
+
+	.harmDescription {
+		lost-column: 3/4;
+	}
+
 }
