@@ -25,3 +25,18 @@
 	bottom: 0px;
 	width: 180px;
 }
+
+@media (max-width: 600px) {
+	.content {
+		width: 100%;
+		padding: 0px 20px;
+		lost-offset: 0;
+	}
+	.fixedRight {
+		position: relative;
+		top: auto;
+		right: auto;
+		width: 100%;
+		text-align: center;
+	}
+}

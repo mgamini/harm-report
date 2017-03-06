@@ -26,6 +26,9 @@ class ReportPage extends React.Component {
 		console.log('rendering report page')
     return (
       <Layout className={s.main}>
+        <div className={s.fixedRight}>
+          <DateNavLink type={'current'} date={this.props.report.date} />
+        </div>
         <article className={s.content}>
           <h1 className={s.title}>{data.title}</h1>
           {data.brief.split('\n').map((item, key) => <p key={`brief_${key}`}>{item}</p>)}
@@ -50,9 +53,6 @@ class ReportPage extends React.Component {
           )}
           </ul>
         </article>
-        <div className={s.fixedRight}>
-          <DateNavLink type={'current'} date={this.props.report.date} />
-        </div>
       </Layout>
     );
   }

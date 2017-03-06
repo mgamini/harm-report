@@ -70,4 +70,16 @@
 	font-size: 28px;
 }
 
-
+@media (max-width: 600px) {
+	.current {
+		text-align: center;
+		margin: 0px 0px 40px 0px;
+	}
+	.current > .date, .current > .year {
+		font-size: 28px;
+		display: inline-block;
+	}
+	.current > .year {
+		margin-left: 10px;
+	}
+}

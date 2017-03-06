@@ -1,12 +1,8 @@
 .header {
-	 /*lost-flex-container: row;*/
-	 /*width: 100%;*/
 	 display: flex;
 	 align-items: flex-start;
 	 padding: 30px;
-}
-.headerWrap {
-	/*lost-column: 1 flex;*/
+	 flex-flow: column;
 }
 
 .title {
@@ -14,10 +10,9 @@
   text-decoration: none;
 }
 
-
 .logo {
 	margin: 0px 25px;
-	width: 250px;
+	width: 220px;
 	font-weight: bold;
 	text-transform: uppercase;
 	text-align: center;
@@ -28,7 +23,7 @@
 	line-height: 52px;
 	position: relative;
 	text-shadow: 0 0 1px rgba(255,255,255,0.3);
-	float: left;
+	/*float: left;*/
 }
 
 .logo > h1 {
@@ -67,7 +62,7 @@
 	margin-left: 10px;
 	content: ']';
 	transform: translateX(-20px);
-	right: -5px;
+	right: -35px;
 
 }
 
@@ -77,4 +72,10 @@
 .logo:focus::after {
 	opacity: 1;
 	transform: translateX(0px);
+}
+
+@media (max-width: 600px) {
+	.header {
+		align-items: center;
+	}
 }
