@@ -23,7 +23,6 @@ class ReportPage extends React.Component {
   render() {
     let data = this.props.report.data;
 
-		console.log('rendering report page')
     return (
       <Layout className={s.main}>
         <div className={s.fixedRight}>

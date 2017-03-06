@@ -15,7 +15,6 @@ class ReportLink extends React.Component {
 	render() {
 		let featured = this.props.featured ? s.featured : s.normal;
 
-		console.log('rendering reportlink')
 		return (
 			<article className={`${s['report-entry']} ${featured}`} >
 				<div className={s.harms}>

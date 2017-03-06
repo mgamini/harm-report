@@ -12,7 +12,6 @@ class DateNavLink extends React.Component {
   };
 
 	render() {
-		console.log('rendering datenavlink')
 		let date = moment(this.props.date);
 		let type = this.props.type;
 		let arrow;

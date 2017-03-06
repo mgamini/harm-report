@@ -19,7 +19,6 @@ class DatePage extends React.Component {
   };
 
 	componentWillMount() {
-		console.log('will mount')
 	}
 
   componentDidMount() {
@@ -27,7 +26,6 @@ class DatePage extends React.Component {
   }
 
   render() {
-		console.log('rendering date page')
     let data = this.props.date.data;
 
     let next = !!this.props.date.next ?

@@ -17,7 +17,6 @@ class HomePage extends React.Component {
   };
 
   componentWillMount() {
-    console.log('will mount home')
   }
 
   componentDidMount() {

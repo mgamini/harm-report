@@ -56,7 +56,6 @@ function resolve(routes, context) {
       continue;
     }
 
-    console.log('do route')
 
     // Check if the route has any data requirements, for example:
     // { path: '/tasks/:id', data: { task: 'GET /api/tasks/$id' }, page: './pages/task' }

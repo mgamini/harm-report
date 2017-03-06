@@ -15,7 +15,6 @@ class HarmIcon extends React.Component {
 
 	render() {
 		let iconClass = s[`harm-icon-${this.props.id}`];
-		console.log('rendering harmIcon')
 		return (
 			<div data-tip data-for={`tip-${this.props.id}`} className={`${this.props.className} ${s['harm-icon']} ${iconClass} ${this.props.featured && s.featured}`} to={`/h/${this.props.slug}`}>
 				<img src={`/assets/img/icons/icon_${this.props.slug}.svg`} className={s.icon} />
