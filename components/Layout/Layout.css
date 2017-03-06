@@ -1,32 +1,9 @@
 @lost flexbox flex;
-/*@lost gutter 10px;*/
-/*
-html, body, body > div {
-  height: 100%;
-  width: 100%;
-}*/
 
 body {
   /*all: initial;*/
   font-family: 'Open Sans', Helvetica, Arial, sans-serif
 }
-/*
-.main {
-	 lost-flex-container: row;
-   width: 100%;
-   min-height: 100%;
-   margin-bottom: 100px;
-}
-
-.container {
-  lost-center: 1140px;
-  position: relative;
-  min-height: 100%;
-}
-
-.content {
-  lost-center: 980px;
-}*/
 
 .wrapper {
   width: 100%;

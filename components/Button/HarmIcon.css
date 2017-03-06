@@ -2,7 +2,11 @@
 	font-weight: bold;
 }
 
-.harm-icon-lgbt {
-	color: red;
+.icon {
+	height: 100%;
+	width: 100%;
 }
 
+.harm-icon {
+	float: right;
+}

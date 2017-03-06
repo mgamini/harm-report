@@ -28,18 +28,23 @@ class ReportPage extends React.Component {
       <Layout className={s.main}>
         <article className={s.content}>
           <h1 className={s.title}>{data.title}</h1>
-          {data.brief.split('\n').map((item, key) => <p key={key}>{item}</p>)}
+          {data.brief.split('\n').map((item, key) => <p key={`brief_${key}`}>{item}</p>)}
           <ul className={s.harms}>
           {data.harms.map((harm, i) =>
             <li key={i} className={s.harmEntry}>
-              <HarmIcon
-							id={`${this.props.report.id}-${harm.id}`}
-							slug={harm.id}
-							name={harm.group}
-							featured={true}
-							key={`${this.props.report.id}-${harm.id}`} />
+              <div className={s.harmIcons}>
+                <HarmIcon
+                id={`${this.props.report.id}-${harm.id}`}
+                slug={harm.id}
+                name={harm.group}
+                featured={true}
+                key={`${this.props.report.id}-${harm.id}`}
+                className={s.harmIcon} />
+              </div>
               <div className={s.harmDescription}>
-                {harm.description}
+                <h2 className={s.harmTitle}>{harm.group}</h2>
+                <h3 className={s.harmTerm}>{harm.term}</h3>
+                {harm.description.split('\n').map((item, key) => <p key={`harm_${key}`}>{item}</p>)}
               </div>
             </li>
           )}

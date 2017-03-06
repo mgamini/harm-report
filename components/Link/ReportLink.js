@@ -26,7 +26,7 @@ class ReportLink extends React.Component {
 							name={harm.group}
 							featured={this.props.featured}
 							key={`${this.props.report.id}-${harm.id}`}
-							className={s.harmIcon} />
+							className={s['harm-icon']} />
 					)}
 				</div>
 				<div className={s.report}>

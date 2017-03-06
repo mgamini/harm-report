@@ -32,3 +32,41 @@
 .year {
 	font-size: 28px;
 }
+
+.harms {
+	float: left;
+	list-style-type: none;
+}
+
+.harmEntry {
+	float: left;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.harmIcons {
+	lost-column: 1/3;
+}
+
+.harmIcon {
+	height: 100px;
+	width: 100px;
+}
+
+.harmDescription {
+	border-left: 5px solid black;
+	padding-left: 20px;
+	min-height: 100px;
+	lost-column: 2/3;
+}
+
+.harmTitle {
+	margin: 0px 0px 5px 0px;
+}
+
+.harmTerm {
+	font-weight: normal;
+	font-size: 1em;
+	margin-top: 0px;
+	text-transform: uppercase;
+}
