@@ -22,10 +22,34 @@
 
 .prev {
 	text-align: right;
+	padding-right: 40px;
 }
 
 .prev > .date, .next > .date {
 	font-size: 28px;
+}
+
+.prev:hover .arrow {
+	transform: translateX(5px);
+}
+
+.next:hover .arrow {
+	transform: translateX(-5px);
+}
+
+.arrow {
+	position: absolute;
+	width: 10px;
+	top: 20px;
+	transition: transform 300ms ease;
+}
+
+.arrowPrev {
+	right: 15px;
+}
+
+.arrowNext {
+	left: 15px;
 }
 
 .current {
